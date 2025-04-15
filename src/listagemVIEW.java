@@ -15,9 +15,6 @@ import javax.swing.JOptionPane;
 
 public class listagemVIEW extends javax.swing.JFrame {
 
-    /**
-     * Creates new form listagemVIEW
-     */
     public listagemVIEW() {
         initComponents();
         listarProdutos();
@@ -154,7 +151,9 @@ public class listagemVIEW extends javax.swing.JFrame {
     }//GEN-LAST:event_btnVenderActionPerformed
 
     private void btnVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVendasActionPerformed
-        //vendasVIEW vendas = new vendasVIEW(); 
+      vendaVIEW venda = new vendaVIEW(); 
+      venda.setVisible(true);  //vendasVIEW vendas = new vendasVIEW(); 
+        //ProdutosDAO.listarProdutosVendidos();
         //vendas.setVisible(true);
     }//GEN-LAST:event_btnVendasActionPerformed
 
